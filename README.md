@@ -1,4 +1,4 @@
-Here's your script. A few things worth knowing:
+
 How it works
 
 Auto-detects your package manager on each run — just copy the same setup.sh to any distro and run it
@@ -9,6 +9,6 @@ Fish gets abbr (abbreviations) instead of aliases, which is the idiomatic fish w
 A heads up for Fedora specifically — ffmpeg needs RPM Fusion enabled first. The script installs the package but if you're on a fresh Fedora without RPM Fusion you'll hit an error. Want me to add an RPM Fusion enablement step for the dnf path?
 To use it:
 
-bashchmod +x setup.sh
+chmod +x setup.sh
 ./setup.sh
 source ~/.bashrc   # or restart shell
